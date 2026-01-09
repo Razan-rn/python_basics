@@ -1,1 +1,9 @@
 print("hello world")
+
+#Python Virtual Environment
+py -m venv my
+my/Scripts/Activate
+py -m pip unstall cowsay
+python
+import cowsay
+cowsay.meow("hi")
